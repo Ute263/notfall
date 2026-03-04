@@ -5,9 +5,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="manifest" href="manifest.json"> 
-  
 <title>Notfall</title>
+
+<link rel="manifest" href="manifest.json">
 
 <style>
 
@@ -84,7 +84,9 @@ function alarm(){
 var name = document.getElementById("name").value;
 var ort = document.getElementById("ort").value;
 
-var link = "https://forms.office.com/e/eqw1hV1iaF?ort=" + encodeURIComponent(ort) + "&name=" + encodeURIComponent(name);
+var link = "https://forms.office.com/e/eqw1hV1iaF?name=" + encodeURIComponent(name) + "&ort=" + encodeURIComponent(ort);
+
+window.open(link);
 
 }
 
