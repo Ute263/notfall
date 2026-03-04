@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>Notfall</title>
 
 <style>
@@ -17,10 +20,16 @@ h1{
 font-size:40px;
 }
 
+input{
+font-size:20px;
+padding:10px;
+margin-top:10px;
+}
+
 select{
 font-size:20px;
 padding:10px;
-margin-top:20px;
+margin-top:10px;
 }
 
 button{
@@ -41,6 +50,10 @@ margin-top:30px;
 <body>
 
 <h1>🚨 NOTFALL</h1>
+
+<p>Name:</p>
+
+<input id="name" type="text" placeholder="Name eingeben">
 
 <p>Ort auswählen:</p>
 
@@ -66,13 +79,15 @@ margin-top:30px;
 
 function alarm(){
 
+var name = document.getElementById("name").value;
 var ort = document.getElementById("ort").value;
 
-window.open("https://forms.office.com/Pages/ResponsePage.aspx?id=Hw-ZKXvuTUKzZ6FUp28-6woocuUYWt1JrquJB-SpcZRUQkM3MLUxNkYzNUtISlE2T0NIRERTTFFFaUi4u");
+window.open("https://forms.office.com/e/eqw1hV1iaF");
 
 }
 
 </script>
 
 </body>
+
 </html>
