@@ -1,15 +1,8 @@
 {
-  "name": "Notfall",
+  "name": "Notfall Button",
   "short_name": "Notfall",
-  "start_url": "/notfall",
+  "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#d40000",
-  "icons": [
-    {
-      "src": "icon.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
+  "background_color": "#f4f4f4",
+  "theme_color": "#ff0000"
 }
